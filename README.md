@@ -57,6 +57,10 @@ Focuses on authentication of endpoints and implements a login system using JWT T
 
 ## Getting Started
 
+- `blog.db`: This file is the SQLite database used in the tutorial. It contains the necessary tables for storing blogs and user information. You can find example data and schema in this file.
+
+- `requirements.txt`: This file lists all the Python dependencies required to run the tutorial.
+
 To run the tutorial, follow these steps:
 
 1. Install the required dependencies by running `pip install -r requirements.txt`.
@@ -73,10 +77,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Happy coding! 😊
-
 ## Acknowledgements
 
 This repository was inspired by the teachings of @sarthaksavvy.
 
-...
+---
+
+Happy coding! 😊
