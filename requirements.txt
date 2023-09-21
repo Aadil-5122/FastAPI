@@ -1,7 +1,7 @@
- fastapi
- uvicorn
- sqlalchemy
- passlib
- bcrypt
+fastapi
+uvicorn
+sqlalchemy
+passlib
+bcrypt
 python-jose
 python-multipart
