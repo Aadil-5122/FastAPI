@@ -6,11 +6,11 @@
 
 from fastapi import FastAPI
 
-from . import models
-from .database import engine
+import models
+from database import engine
 
-from .routers import blog
-from .routers import user
+from routers import blog
+from routers import user
 
 models.Base.metadata.create_all(engine) 
 app = FastAPI()

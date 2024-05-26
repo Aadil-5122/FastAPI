@@ -3,12 +3,12 @@
 from fastapi import APIRouter
 
 from fastapi import Depends, status
-from .. import schemas, database
+import schemas, database
 from typing import List
 from sqlalchemy.orm import Session
 
 # Required import for the refactoring of Router
-from .. repository import blog
+from repository import blog
 
 get_db = database.get_db
 

@@ -2,7 +2,7 @@
 
 from sqlalchemy.orm import Session
 from fastapi import status, HTTPException
-from .. import models, schemas
+import models, schemas
 
 # Definitions of the endpoints.
 

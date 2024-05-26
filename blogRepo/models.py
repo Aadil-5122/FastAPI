@@ -4,7 +4,7 @@
 # Pydantic Models are called 'Schemas' as defined in schemas.py
 
 from sqlalchemy import Column, Integer, String, ForeignKey
-from .database import Base
+from database import Base
 
 from sqlalchemy.orm import relationship
 
